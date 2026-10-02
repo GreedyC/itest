@@ -55,6 +55,13 @@ requests, or fixtures. Use synthetic examples or sanitize artifacts with
 name environment variables, not their secret values. Do not commit local
 environment bindings or generated artifacts.
 
+## AI assistance
+
+AI-assisted contributions are welcome. Say so in the pull request. The person
+submitting is responsible for having run the gates, read the whole diff, and
+checked that nothing sensitive or generated is in it. The gates' actual output
+in the PR is the evidence, whoever or whatever wrote the code.
+
 ## Pull request checklist
 
 - Link the issue and describe the change and its scope.
@@ -62,9 +69,7 @@ environment bindings or generated artifacts.
 - Include the actual output of the three required gates and any limitations.
 - Update DESIGN.md's scope ledger where applicable.
 - Check the diff for unrelated changes, generated files, and sensitive data.
-- Follow the repository's PR template if GitHub presents one. There is currently
-  no committed PR template on main; this checklist supplies the required details
-  without linking to a nonexistent file.
+- There is no PR template yet; this checklist is the template.
 
 Do not mark a task complete based on expected behavior alone: executed tests and
 observed results are the completion evidence.

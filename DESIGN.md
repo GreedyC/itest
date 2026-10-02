@@ -416,8 +416,6 @@ goes on. ITest never runs the red-team tool.
 ## Scope ledger
 
 Shipped:
-- Contributor guide (`CONTRIBUTING.md`): setup, required development gates,
-  regression-first fixes, scope discipline, and safe artifact sharing.
 - Security-group edge detector
 - IAM edge detector (role -> resource, wildcard / cross-stack / managed flags)
 - Event edge detector (event source mapping, DLQ redrive, lambda_permission,
